@@ -23,4 +23,9 @@ public class GUIManager : MonoBehaviour {
         GameManager.Instance.LoadFirstMap();
         mainMenu.SetActive(false);
     }
+
+    public void GameExit()
+    {
+        Application.Quit();
+    }
 }
